@@ -21,6 +21,6 @@
 
 **Step 6--Extract only the columns with Mean and Std**
 
-	1.toupper is used to extract all the mean columns (they follow a mix of cases), std are not following a specific case
+	1.toupper is used to extract all the mean and std columns (they don't follow consistent name, Mean, mean etc)
 
 **Step 7--Aggregate on Activity, Subject and generate a csv file**
